@@ -13,7 +13,6 @@ BACKUP_BASE_DIR="Backups"
 
 # Target audio files list
 TARGET_FILES=(
-  "/vendor/etc/audio_param/SpeechVolParam.xml"
   "/vendor/etc/audio_param/SpeechVol_AudioParam.xml"
   "/vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml"
   "/vendor/etc/audio_param/Speech_AudioParam.xml"
