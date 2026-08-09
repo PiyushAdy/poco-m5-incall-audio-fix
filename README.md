@@ -24,6 +24,7 @@ Custom ROMs on the POCO M5 often suffer from notoriously low in-call volume and 
 
 * **Verified on:** Shakib's LineageOS 22 (Android 15)
 * **Target Builds:**
+  * Shakib's other Custom ROMs
   * Asmodeus's Android 16 builds
   * Picasso's Android 13 & Android 16 builds
 * *Note: This module should theoretically work on any AOSP/Custom ROM for the POCO M5.*
