@@ -46,6 +46,18 @@ Before running the installer, make sure:
 
 ## ⚡ How to Use
 
+You can install this fix using EITHER the **ADB method** OR the **Magisk/KernelSU Module method**. **Do not use both.**
+
+### Method A: Magisk / KernelSU Module (Recommended)
+
+1. Download the module zip from the repository: [POCO_M5_Incall_Audio_Fix.zip](./POCO_M5_Incall_Audio_Fix.zip)
+2. Open Magisk, KernelSU, or APatch.
+3. Flash the module and reboot.
+
+> **Note for KernelSU / APatch Users:** This module mounts files to `/vendor/etc`. If you are using a newer KernelSU (e.g. KernelSU Next) that does not have an inbuilt overlayfs mount metamodule, you **MUST** install a mount module like **Hybrid Mount**, **Magic Mount-rs**, or **meta-overlayfs** first. Without it, KernelSU will silently fail to mount the vendor files.
+
+### Method B: ADB Push (Linux / WSL)
+
 Open your Linux terminal (Fedora, Ubuntu, Arch, etc.) or WSL on Windows and run:
 
 ```bash

@@ -1,0 +1,6 @@
+id=poco-m5-audio-fix
+name=POCO M5 Ultimate Audio Fix
+version=v1.0
+versionCode=1
+author=piyush
+description=Systemlessly applies aggressive brute-force EQ, hardware amplifier, and software policy boosts to fix low in-call volume on Custom ROMs.
