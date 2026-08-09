@@ -50,7 +50,7 @@ You can install this fix using EITHER the **ADB method** OR the **Magisk/KernelS
 
 ### Method A: Magisk / KernelSU Module (Recommended)
 
-1. Download the module zip from the repository: [POCO_M5_Incall_Audio_Fix.zip](./POCO_M5_Incall_Audio_Fix.zip)
+1. Download the latest module zip from the Releases page: [POCO_M5_Incall_Audio_Fix.zip](https://github.com/PiyushAdy/poco-m5-incall-audio-fix/releases/latest/download/POCO_M5_Incall_Audio_Fix.zip)
 2. Open Magisk, KernelSU, or APatch.
 3. Flash the module and reboot.
 
