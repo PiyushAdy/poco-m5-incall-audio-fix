@@ -2,6 +2,8 @@
 
 A comprehensive audio parameter fix for the **POCO M5 (g99)** running Custom ROMs. This mod tunes MediaTek's hardware mixer gains, audio policy volume curves, and DSP FIR equalizers to fix the notorious low in-call volume and feeble speaker sound.
 
+⭐ **If you find this module helpful, please consider leaving a Star on this repository!** ⭐
+
 ---
 
 ## 🚀 What This Fixes
