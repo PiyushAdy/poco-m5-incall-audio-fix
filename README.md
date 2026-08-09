@@ -63,11 +63,10 @@ You can install this fix using EITHER the **ADB method** OR the **Magisk/KernelS
 Open your Linux terminal (Fedora, Ubuntu, Arch, etc.) or WSL on Windows and run:
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/PiyushAdy/poco-m5-incall-audio-fix.git
-
-# 2. Enter the directory
+# 1. Clone only the ADB files (ignores Magisk module source)
+git clone --filter=blob:none --sparse https://github.com/PiyushAdy/poco-m5-incall-audio-fix.git
 cd poco-m5-incall-audio-fix
+git sparse-checkout set audio_manager.sh XML_Files
 
 # 3. Make the script executable
 chmod +x audio_manager.sh
